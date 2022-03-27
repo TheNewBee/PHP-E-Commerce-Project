@@ -1,9 +1,7 @@
 Website Address Homepage: 
 
 For HTTP 80:
-https://s65.ierg4210.ie.cuhk.edu.hk
-
-Normally will redirect to https://secure.s65.ierg4210.ie.cuhk.edu.hk
+https://s65.ierg4210.ie.cuhk.edu.hk Normally will redirect to https://secure.s65.ierg4210.ie.cuhk.edu.hk
 
 However, if access directly to https://s65.ierg4210.ie.cuhk.edu.hk
 Redirection will stop.
@@ -25,6 +23,7 @@ https://secure.s65.ierg4210.ie.cuhk.edu.hk
 -   External CSS: Boostrap 
 
 For Security Concerns
+
 Every user actions can only access one corresponding database function:
 
     - Register => ierg4210_user_register() ONLY
