@@ -9,9 +9,6 @@ Redirection will stop.
 For HTTPS 443:
 https://secure.s65.ierg4210.ie.cuhk.edu.hk
 
--   Home Page: main.php
-    -   https://secure.s65.ierg4210.ie.cuhk.edu.hk/main.php
-
 -   Local Environment Required: PHP
 
 -   No framework is used
