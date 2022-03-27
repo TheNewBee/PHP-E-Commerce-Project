@@ -1,0 +1,76 @@
+.shopping-list {
+    float: right;
+    position: relative;
+    z-index: 100;
+}
+
+.shopping-list-title {
+    text-align: center;
+}
+
+.shopping-list span:hover+div {
+    opacity: 1;
+    transition: 0s;
+}
+
+.lists {
+    float: left;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 25px;
+    margin-top: 8%;
+    margin-right: -100px;
+    opacity: 0;
+    transition: opacity 1s ease;
+    background-color: white;
+}
+
+.shopping-list span:hover .lists {
+    opacity: 1;
+}
+
+.lists:hover {
+    opacity: 1;
+}
+
+.lists li {
+    width: 100%;
+}
+
+.lists input {
+    width: 30%;
+    margin-left: 25%;
+}
+
+.Shopping_Cart_Row {
+    display: table;
+    border-spacing: 20px;
+}
+
+.Column {
+    display: table-cell;
+    width: 5rem;
+}
+
+.CheckOutBtn {
+    position: relative;
+    bottom: 10%;
+    left: 65%;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 25px;
+}
+
+.quantity {
+    display: table-cell;
+    width: 40%;
+}
+
+.list_group_adjust {
+    padding-left: 3%;
+}
+
+#scroll {
+    max-height: 180px;
+    overflow-y: scroll;
+}
