@@ -24,6 +24,7 @@ https://secure.s65.ierg4210.ie.cuhk.edu.hk
 
 For Security Concerns
 Every user actions can only access one corresponding database function:
+
     - Register => ierg4210_user_register() ONLY
         - can only resgister as normal user
         - Admin type user can only through admin panel to add
